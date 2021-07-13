@@ -36,7 +36,12 @@ header{
     justify-content: center;
     align-items: center;
     background-color: #E02C6D;
-
+    transition: transform 1s;
+}
+.title-button:hover{
+    background-color: lightseagreen;
+    transform: scale(1.2);
+    cursor: pointer;
 }
 .title-button a{
     text-decoration: none;
