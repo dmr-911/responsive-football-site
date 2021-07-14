@@ -235,7 +235,7 @@ footer{
 }
 
 /* ----------media query-------------- */
-@media only screen and (max-width:688px) {
+@media (max-width:688px) {
 /* utilites */
     .container{
         width: 100%;
@@ -251,7 +251,7 @@ footer{
     .nav-section{
         width: 100%;
         height: auto;
-        padding-bottom: 10px;
+        padding: 0 20px 10px;
         margin-bottom: 36px;
         border-bottom: 1px solid white;
     }
@@ -260,6 +260,9 @@ footer{
         display: grid;
         grid-template-columns: repeat(2,1fr);
         grid-gap: 2em
+    }
+    .login{
+        height: 41px;
     }
     /* banners styles  */
     .banners{
