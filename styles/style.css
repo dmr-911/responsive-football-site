@@ -49,6 +49,11 @@ header{
     align-items: center;
     width: 123px;
     justify-content: space-evenly;
+    
+}
+.login:hover{
+    background-color: teal;
+    transition: background-color .5s;
 }
 /* banners styles */
 .banners{
@@ -304,6 +309,7 @@ footer{
     .content{
         display: flex;
         justify-content: center;
+        
     }
     #input{
         width: 100%;
@@ -381,5 +387,5 @@ footer{
     }
     footer{
         margin-bottom: 100px;
-    } */
+    }
 }
