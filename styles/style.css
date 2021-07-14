@@ -235,7 +235,7 @@ footer{
 }
 
 /* ----------media query-------------- */
-@media (max-width:688px) {
+@media (max-width:888px) {
 /* utilites */
     .container{
         width: 100%;
@@ -340,7 +340,7 @@ footer{
     }
 }
 
-@media only screen and (min-width:688px) and (max-width:992px) {
+@media only screen and (min-width:888px) and (max-width:1170px) {
 /* utilites */
 .container{
     width: 100%;
