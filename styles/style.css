@@ -348,6 +348,7 @@ footer{
     header{
         width: 100%;
         height: auto;
+        overflow: hidden;
     }
     .nav-section{
         width: 100%;
@@ -360,7 +361,7 @@ footer{
         align-items: center;
     }
     .title{
-        margin-bottom: 50px;
+        margin: 0 0 50px 30px;
     }
     .title-head{
         width: 100%;
