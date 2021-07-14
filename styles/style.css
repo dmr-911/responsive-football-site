@@ -324,3 +324,62 @@ footer{
         height: 71px;
     }
 }
+
+@media only screen and (min-width:688px) and (max-width:992px) {
+/* utilites */
+.container{
+    width: 100%;
+}
+/* header styles  */
+    header{
+        width: 100%;
+        height: auto;
+    }
+    .nav-section{
+        width: 100%;
+        justify-content: space-around;
+    }
+    .banners{
+        width: 100%;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .title{
+        margin-bottom: 50px;
+    }
+    .title-head{
+        width: 100%;
+    }
+    .banner{
+        width: 100%;
+        margin-bottom: 62px;
+        align-items: center;
+        justify-content: center;
+    }
+    .banner img{
+        margin: 0;
+    }
+/* main styles  */
+    /* players styles  */
+    .profiles{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .profile{
+        margin-left: 10px;
+    }
+    /* topics styles  */
+    .topics{
+        grid-template-columns: repeat(2,1fr);
+    }
+    /* search styles */
+    .search{
+        width: 100%;
+    }
+    #input{
+        margin-left: 20px;
+    }
+    footer{
+        margin-bottom: 100px;
+    } */
+}
