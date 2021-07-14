@@ -32,9 +32,7 @@ header{
     display: flex;
     justify-content: space-between;
 }
-.banners{
-    display: flex;
-}
+
 .linked-pages{
     width: 587px;
     display: flex;
@@ -52,7 +50,13 @@ header{
     width: 123px;
     justify-content: space-evenly;
 }
-.title .title-head{
+/* banners styles */
+.banners{
+    width: 1160px;
+    display: flex;
+    justify-content: space-between;
+}
+.title-head{
     width: 485px;
 } 
 .title-head h1{
@@ -77,11 +81,7 @@ header{
     color: white;
     margin-right: 8px;
 }
-.banners{
-    width: 1160px;
-    display: flex;
-    justify-content: space-between;
-}
+
 .banner{
     width: 556px;
     height: 438px;
@@ -227,4 +227,100 @@ footer{
 .info-section h2{
     margin: 0;
     font-weight: 500;
+}
+
+/* ----------media query-------------- */
+@media only screen and (max-width:688px) {
+/* utilites */
+    .container{
+        width: 100%;
+    }
+
+/* header styles  */
+    header{
+        height: auto;
+        padding: 20px;
+    }
+    /* nav styles  */
+    .nav-section{
+        width: 100%;
+        height: auto;
+        padding-bottom: 10px;
+        margin-bottom: 36px;
+        border-bottom: 1px solid white;
+    }
+    .linked-pages{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 2em
+    }
+    .login{
+        height: 44px;
+    }
+    /* banners styles  */
+    .banners{
+        width: 100%;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .title{
+        margin-bottom: 50px;
+    }
+    .title-head{
+        width: 100%;
+    }
+    .banner{
+        width: 100%;
+        margin-bottom: 62px;
+        align-items: center;
+        justify-content: center;
+    }
+    .banner img{
+        margin: 0;
+    }
+/* main styles  */
+    /* profiles section,topic section and search bar style */
+    .profiles,.topics,.topic{
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .topic{
+        margin-bottom: 40px;
+    }
+    .topic h3{
+        width: 100%;
+    }
+    .topic-info{
+        width: 298px;
+        height: 47px;
+    }
+    .search{
+        width: 80%;
+    }
+    .content{
+        display: flex;
+        justify-content: center;
+    }
+    #input{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+/* footer styles  */
+    footer{
+        flex-flow: column;
+        margin-bottom: 150px;
+    }
+    .copyrights-section{
+        width: 90%;
+        height: 144px;
+    }
+    .logo-section img{
+        width: 100%;
+        height: 71px;
+    }
 }
