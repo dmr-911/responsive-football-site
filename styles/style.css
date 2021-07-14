@@ -261,8 +261,6 @@ footer{
         grid-template-columns: repeat(2,1fr);
         grid-gap: 2em
     }
-    .login{
-    }
     /* banners styles  */
     .banners{
         width: 100%;
