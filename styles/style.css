@@ -243,8 +243,9 @@ footer{
 
 /* header styles  */
     header{
+        width: 100%;
         height: auto;
-        padding: 20px;
+        overflow: hidden;
     }
     /* nav styles  */
     .nav-section{
@@ -261,7 +262,6 @@ footer{
         grid-gap: 2em
     }
     .login{
-        height: 44px;
     }
     /* banners styles  */
     .banners{
