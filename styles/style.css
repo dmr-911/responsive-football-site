@@ -279,6 +279,7 @@ footer{
         align-items: center;
     }
     .title{
+        padding-left:20px;
         margin-bottom: 50px;
     }
     .title-head{
