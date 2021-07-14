@@ -261,6 +261,13 @@ footer{
         grid-template-columns: repeat(2,1fr);
         grid-gap: 2em
     }
+    .active{
+        font-size: 1.3em;
+        margin-left: 10px;
+    }
+    .hidden{
+        display: none;
+    }
     .login{
         height: 41px;
     }
